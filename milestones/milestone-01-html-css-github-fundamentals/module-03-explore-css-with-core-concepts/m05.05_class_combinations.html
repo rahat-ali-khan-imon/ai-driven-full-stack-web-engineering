@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Selectors</title>
+    <style>
+        ol, ul, p, .special-h {
+            background-color: lightblue;
+        }
+        .red {
+            color: red;
+        }
+        .green {                                    /* */
+            color: green;
+        }
+        .bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h2>This is a heading.</h2>
+    <h2 class="special-h">This is a heading.</h2>
+    <h2>This is a heading.</h2>
+    <p>This is a sample paragraph.</p>
+    <ol>
+        <li>Item - 1</li>
+        <li class="red bold">Item - 2</li>
+        <li>Item - 3</li>
+        <li class="bold">Item - 4</li>
+        <li>Item - 5</li>
+    </ol>
+    <ul>
+        <li class="green bold">Item - 1</li>                   <!-- -->
+        <li>Item - 2</li>
+        <li class="green">Item - 3</li>                              <!-- -->
+        <li>Item - 4</li>
+        <li>Item - 5</li>
+    </ul>
+</body>
+</html>
