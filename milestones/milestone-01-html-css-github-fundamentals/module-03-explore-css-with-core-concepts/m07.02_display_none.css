@@ -1,0 +1,11 @@
+article {
+    background-color: blueviolet;
+}
+
+h2 {
+    text-align: center;
+}
+
+#second-article {
+    display: none;                                  /* */
+}
