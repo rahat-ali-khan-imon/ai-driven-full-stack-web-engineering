@@ -1,0 +1,6 @@
+.blog {
+    background-color: bisque;
+    width: 400px;
+    margin: 50px;
+    box-shadow: 20px 20px 0px black;            /* x-axis, y-axis, spread, color */
+}

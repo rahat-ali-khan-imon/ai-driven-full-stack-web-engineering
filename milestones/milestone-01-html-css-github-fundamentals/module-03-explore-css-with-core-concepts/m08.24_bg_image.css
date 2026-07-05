@@ -1,0 +1,14 @@
+.blog {
+    background-color: bisque;
+    width: 400px;
+    margin: 50px;
+    box-shadow: 20px 20px 50px black;
+}
+
+#header {
+    background-color: aquamarine;
+    background-image: url(./images/elsa-frozen-2-pictures.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;                                       /* */
+    height: 1200px;
+}
