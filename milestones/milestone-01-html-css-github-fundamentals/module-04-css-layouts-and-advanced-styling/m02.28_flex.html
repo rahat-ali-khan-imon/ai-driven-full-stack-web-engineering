@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Layout</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .box {
+            border: 3px solid peru;
+            height: 100px;
+        }
+        div {
+            font-size: 2rem;
+        }
+        .user-container {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px; 
+            flex-wrap: wrap;
+        }
+        .user {
+            border: 3px solid purple;
+            height: 100px;
+        }
+        .pic-container {
+            border: 3px solid chartreuse;
+            justify-content: center;    /* Not centered because the parent is not using Flexbox. */
+        }
+        .picture {
+            width: 200px;
+            height: 200px;
+            border: 3px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="pic-container">
+        <div class="picture">picture</div>
+    </div>
+    <div class="user-container">
+        <div class="user">user - 1</div>
+        <div class="user">user - 2</div>
+        <div class="user">user - 3</div>
+        <div class="user">user - 4</div>
+        <div class="user">user - 5</div>
+        <div class="user">user - 6</div>
+        <div class="user">user - 7</div>
+        <div class="user">user - 8</div>
+        <div class="user">user - 9</div>
+        <div class="user">user - 10</div>
+        <div class="user">user - 11</div>
+        <div class="user">user - 12</div>
+        <div class="user">user - 13</div>
+        <div class="user">user - 14</div>
+        <div class="user">user - 15</div>
+        <div class="user">user - 16</div>
+        <div class="user">user - 17</div>
+        <div class="user">user - 18</div>
+        <div class="user">user - 19</div>
+        <div class="user">user - 20</div>
+        <div class="user">user - 21</div>
+        <div class="user">user - 22</div>
+        <div class="user">user - 23</div>
+        <div class="user">user - 24</div>
+        <div class="user">user - 25</div>
+        <div class="user">user - 26</div>
+        <div class="user">user - 27</div>
+        <div class="user">user - 28</div>
+        <div class="user">user - 29</div>
+        <div class="user">user - 30</div>
+        <div class="user">user - 31</div>
+        <div class="user">user - 32</div>
+        <div class="user">user - 33</div>
+        <div class="user">user - 34</div>
+        <div class="user">user - 35</div>
+        <div class="user">user - 36</div>
+        <div class="user">user - 37</div>
+        <div class="user">user - 38</div>
+        <div class="user">user - 39</div>
+        <div class="user">user - 40</div>
+    </div>
+    <div class="container">
+        <div class="box">box - 1</div>
+        <div class="box">box - 2</div>
+        <div class="box">box - 3</div>
+        <div class="box">box - 4</div>
+        <div class="box">box - 5</div>
+    </div>
+</body>
+</html>
