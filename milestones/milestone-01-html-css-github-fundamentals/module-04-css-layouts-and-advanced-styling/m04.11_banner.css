@@ -1,0 +1,17 @@
+.banner {
+    display: flex;
+    background-color: lightblue;
+    padding: 20px;                                            /* */
+}
+
+.banner-content {
+    flex: 1;
+}
+
+.banner-img-container {
+    flex: 1;
+}
+
+.banner-img-container {
+    width: 100%;
+}
