@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #b0abab;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;                                                   /* */
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}

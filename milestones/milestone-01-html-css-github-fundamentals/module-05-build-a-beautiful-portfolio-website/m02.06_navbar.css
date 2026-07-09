@@ -1,0 +1,9 @@
+nav {
+    background-color: #b0abab;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;                                      /* */
+}
