@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.navbar {
+    display: flex;                                          /* border remove */
+    justify-content: space-between;
+    padding: 24px 115px;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+}
+
+.btn {
+    background-color: #1D4ED8;
+    padding: 12px 41px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
