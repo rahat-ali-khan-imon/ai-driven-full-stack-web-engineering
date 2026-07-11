@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #FFFFFF;                                  /* */
+    background-color: #FFFFFF;
 }
 
 .navbar {
@@ -36,4 +36,37 @@ body {
     border-radius: 10px;
     font-weight: bold;
     color: #FFFFFF;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('./assets/images/banner.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner-content h1 {
+    color: #FFFFFF;
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.banner-content p {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.hero-btn {
+    padding: 25px 62px;
+    margin-top: 152px; 
 }
