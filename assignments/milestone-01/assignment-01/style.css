@@ -232,3 +232,31 @@ body {
     color: #0D1B2A;
     background-color: #F8F9FB;
 }
+
+footer {
+    background-color: #0D1B2A;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.social-links a {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.copyright-message {
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer hr {
+    border: none;
+    border-top: 0.2px solid #fafbfc;
+}
