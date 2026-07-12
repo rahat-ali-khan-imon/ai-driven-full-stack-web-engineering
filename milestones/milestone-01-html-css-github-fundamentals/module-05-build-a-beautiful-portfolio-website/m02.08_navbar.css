@@ -1,11 +1,11 @@
-nav {
-    background-color: #b0abab;
-    display: flex;
-    justify-content: space-between;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 
-ul {
-    display: flex;
-    list-style: none;
-    gap: 10px;                                  /* */
+header {
+    background-color: #f2caae;
+    margin-top: 50px;                                   /* */
 }

@@ -2,21 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 
 header {
-    background-color: #b0abab;                     /* Bg add */
+    background-color: #FFF8F3;
+    padding-top: 50px;
 }
 
 nav {
-    display: flex;                                /* Bg remove */
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-ul {
-    display: flex;
-    list-style: none;
-    gap: 10px;
+    border: 2px solid red;
+    width: 70%;
+    max-width: 1140px;
+    margin: 0 auto;                                  /* */
 }
