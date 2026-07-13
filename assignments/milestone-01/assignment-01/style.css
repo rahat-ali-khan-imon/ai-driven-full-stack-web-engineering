@@ -5,8 +5,6 @@
     font-family: "Inter", sans-serif;
 }
 
-
-/* Shared Style */
 body {
     background-color: #FFFFFF;
 }
@@ -20,8 +18,6 @@ body {
     color: #FFFFFF;
 }
 
-
-/* Main Style */
 .navbar {
     display: flex; 
     justify-content: space-between;
@@ -40,4 +36,40 @@ body {
     font-size: 16px;
     font-weight: 400;
     color: #575757;
+}
+
+#banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('./assets/images/banner.jpg');
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-content h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.banner-description {
+    font-size: 22px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 200px;
+}
+
+.hero-btn {
+    font-size: 24px;
+    padding: 25px 62px;
+}
+
+header {
+    margin-bottom: 80px;
 }
