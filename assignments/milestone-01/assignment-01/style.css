@@ -128,11 +128,18 @@ header {
     
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;                                    /* */
+    margin-bottom: 50px; 
 }
 
 .section-header {
     text-align: center;
+}
+
+.section-header h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #0D1B2A;
+    margin-bottom: 12px;
 }
 
 .section-header p {
@@ -235,6 +242,62 @@ header {
 
 .pricing .btn {
     color: #FFFFFF;
+}
+
+.sponsors {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px 115px;
+}
+
+.sponsors .section-header {
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.sponsors .section-header h2 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #0D1B2A;
+    margin-bottom: 16px;
+}
+
+.sponsors .section-header p {
+    font-size: 18px;
+    color: #575757;
+}
+
+.sponsors-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.sponsor-card {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 32px;
+    text-align: center;
+}
+
+.sponsor-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.sponsor-card h3 {
+    font-size: 22px;
+    color: #0D1B2A;
+    margin-bottom: 10px;
+}
+
+.sponsor-card p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #575757;
 }
 
 footer {
