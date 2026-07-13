@@ -5,10 +5,23 @@
     font-family: "Inter", sans-serif;
 }
 
+
+/* Shared Style */
 body {
     background-color: #FFFFFF;
 }
 
+.btn {
+    background-color: #1D4ED8;
+    padding: 12px 41px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+
+/* Main Style */
 .navbar {
     display: flex; 
     justify-content: space-between;
@@ -29,15 +42,6 @@ body {
     color: #575757;
 }
 
-.btn {
-    background-color: #1D4ED8;
-    padding: 12px 41px;
-    border: none;
-    border-radius: 10px;
-    font-weight: bold;
-    color: #FFFFFF;
-}
-
-.banner {
-    background-image: url('./assets/images/banner.jpg');                    /* */
+#banner {
+    background-image: url('./assets/images/banner.jpg');                             /* */
 }
