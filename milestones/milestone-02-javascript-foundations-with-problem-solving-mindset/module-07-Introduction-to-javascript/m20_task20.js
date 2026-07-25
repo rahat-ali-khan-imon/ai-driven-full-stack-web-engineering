@@ -1,4 +1,4 @@
-/* Bonus Challenge — Shopping Bill Calculato
+/* Bonus Challenge — Shopping Bill Calculator
 Calculate a subtotal, tax amount, and grand total, then print a neat bill.
 */
 
