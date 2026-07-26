@@ -2,4 +2,4 @@
 //     console.log('Hello, ' + name;       // missing )
 // }
 
-// greet('Alice')
+// greet('Alice')   // SyntaxError: Code won't even run
