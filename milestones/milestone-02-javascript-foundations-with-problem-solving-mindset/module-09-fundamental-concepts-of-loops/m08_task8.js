@@ -1,0 +1,7 @@
+/* Task 8 — Count Down from 20 
+Write a for loop that counts down from 20 to 1.
+*/
+
+for(let i = 20; i > 0; i--) {
+    console.log(i);
+}
