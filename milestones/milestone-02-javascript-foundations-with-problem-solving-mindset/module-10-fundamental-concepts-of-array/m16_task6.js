@@ -2,6 +2,6 @@
 
 const fruits = ["Apple", "Banana", "Mango"];
 
-fruits.pop('Cherry');
+fruits.pop();
 
 console.log(fruits);
