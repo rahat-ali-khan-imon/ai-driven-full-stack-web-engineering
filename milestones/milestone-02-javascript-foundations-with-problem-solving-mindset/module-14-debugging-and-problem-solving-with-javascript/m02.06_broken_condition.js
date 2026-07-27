@@ -1,7 +1,7 @@
 // Broken condition (2)
 
 function canApply(age, hasNID) {
-    if(age == 18 || hasNID) {
+    if(age == 18 || hasNID) {               // Logical Error
         return 'Eligible';
     }
 
