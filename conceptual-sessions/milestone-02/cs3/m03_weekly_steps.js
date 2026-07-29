@@ -12,7 +12,7 @@ function weeklyStepsSummary(stepsArray) {
     const returnObj = {
         totalSteps: steps,
         goalReached: goalReached
-    }
+    };
     console.log(returnObj);
 }
 

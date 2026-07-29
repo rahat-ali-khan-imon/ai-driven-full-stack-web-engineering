@@ -16,7 +16,7 @@ function weeklyStepsSummary(stepsArray) {
     return {
         totalSteps: steps,
         goalReached
-    }
+    };
 }
 
 
