@@ -8,6 +8,7 @@ let location = `Rajshahi`;
 let message1 = "Hello, " + name + ". Your bill is " + price;
 let message2 = `Hello, ${name}. Your bill is ${price}`;
 let message3 = `Hello, ${name}. Your bill is ${price * quantity}`;
+
 let message4 = `Hello, ${name}. Your bill is ${price * quantity}
 
 line 1

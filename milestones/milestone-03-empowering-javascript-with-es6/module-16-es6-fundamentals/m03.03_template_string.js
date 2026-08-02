@@ -9,6 +9,7 @@ console.log(message);
 console.log('------------------------------------------\n');
 
 
+
 function admissionConfirmationMail(name, amount) {
   let message = `Hello, ${name || "student"},
               Your payment is successful.
