@@ -12,4 +12,6 @@ function add(a, b) {
 }
 
 arr.push(111);                          /* */
+
 console.log(arr2);
+console.log(arr);

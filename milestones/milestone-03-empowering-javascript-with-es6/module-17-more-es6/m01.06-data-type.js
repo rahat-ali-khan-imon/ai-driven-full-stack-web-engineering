@@ -13,4 +13,6 @@ function add(a, b) {
 
 
 students.age = 23;                              /* */
+
 console.log(students2);
+console.log(students);

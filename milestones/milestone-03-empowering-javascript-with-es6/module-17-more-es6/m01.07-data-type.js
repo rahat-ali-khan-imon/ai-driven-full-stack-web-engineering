@@ -13,3 +13,4 @@ function add(a, b) {
 
 
 console.log(arr2);                       /* */
+console.log(arr);

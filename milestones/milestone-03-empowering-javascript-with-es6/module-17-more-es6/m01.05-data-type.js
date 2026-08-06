@@ -13,3 +13,4 @@ function add(a, b) {
 
 
 console.log(students2);                              /* */
+console.log(students);

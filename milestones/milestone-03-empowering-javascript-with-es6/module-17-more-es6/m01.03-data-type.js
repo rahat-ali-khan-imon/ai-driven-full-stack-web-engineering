@@ -8,3 +8,4 @@ let universityResult = undefined;
 let salary = null;
 
 console.log(name2);                                 /* */
+console.log(name);

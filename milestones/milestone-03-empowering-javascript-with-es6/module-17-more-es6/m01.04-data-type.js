@@ -8,4 +8,6 @@ let universityResult = undefined;
 let salary = null;
 
 name = 'Jisoo';                                 /* Address */
+
 console.log(name2);
+console.log(name);
