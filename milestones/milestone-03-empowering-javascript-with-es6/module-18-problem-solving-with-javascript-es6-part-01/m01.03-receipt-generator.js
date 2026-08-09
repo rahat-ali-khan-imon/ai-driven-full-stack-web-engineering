@@ -8,6 +8,7 @@
 
 function receiptGenerator(name, price, qty) {
     return name + ' x' + qty + ' = ' + price * qty + ' Taka';
+    // return name, ' x', qty, ' = ', price * qty, ' Taka';
 }
 
 console.log(receiptGenerator("Pen", 20, 3));
