@@ -1,0 +1,65 @@
+/*
+User Profile Extractor
+Function Name Must be: extractUserInfo
+একটি Social App-এর API একটি Nested User Object Return করে। Destructuring ব্যবহার করে Nested Data থেকে Name,
+Age এবং Hobby List-এর First Item বের করতে হবে।
+
+Input
+extractUserInfo(userObj) — userObj = { user: { name, age }, hobbies: […] }
+
+Output / নিয়ম
+    Object এবং Array Destructuring ব্যবহার করতে হবে (Default এবং Rename সহ)
+    Return করতে হবে: "<name> (<age>) likes <firstHobby>"
+    hobbies Array Empty হলে firstHobby এর Default হবে "nothing yet"
+
+Validation
+Return "Invalid" যদি user.name না থাকে।
+
+টেস্ট কেস
+Input:
+{user:{name:"Sadia",age:22}, hobbies:["reading","coding"]}
+{user:{name:"Rafi",age:19}, hobbies:[]}
+{user:{age:30}, hobbies:[]}
+
+
+Output:
+Sadia (22) likes reading
+Rafi (19) likes nothing yet
+Invalid
+
+*/
+
+const extractUserInfo = (userObj) => {
+    const {
+        user: {
+            name: userName,
+            age: userAge
+        },
+        hobbies
+    } = userObj;
+
+    console.log(name);                      // error
+    console.log(age);
+    console.log(hobbies);
+}
+
+console.log(
+    extractUserInfo({
+        user: { name: "Sadia", age: 22 },
+        hobbies: ["reading", "coding"]
+    })
+);
+
+console.log(
+    extractUserInfo({
+        user: { name: "Rafi", age: 19 },
+        hobbies: []
+    })
+);
+
+console.log(
+    extractUserInfo({
+        user: { age: 30 },
+        hobbies: []
+    })
+);
