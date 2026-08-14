@@ -1,0 +1,16 @@
+"use strict";
+// let name: string = "Rafi";
+let name1 = "Rafi";
+let age = 20;
+let isActive = true;
+let user = null;
+let data = undefined;
+let bigValue = 1000n;
+let uniqueId = Symbol("id");
+console.log(name1, '------>', typeof name1);
+console.log(age, '------>', typeof age);
+console.log(isActive, '------>', typeof isActive);
+console.log(user, '------>', typeof user);
+console.log(data, '------>', typeof data);
+console.log(bigValue, '------>', typeof bigValue);
+console.log(uniqueId, '------>', typeof uniqueId);
