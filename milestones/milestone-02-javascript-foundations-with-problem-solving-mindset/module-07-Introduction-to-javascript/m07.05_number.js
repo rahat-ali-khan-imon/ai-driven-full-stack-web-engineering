@@ -4,7 +4,7 @@ console.log();
 
 
 const number1 = parseInt(numberString1)
-console.log(number1, '--->', typeof numberString1);
+console.log(number1, '--->', typeof number1);
 console.log()
 
 
