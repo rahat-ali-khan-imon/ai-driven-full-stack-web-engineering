@@ -10,4 +10,4 @@ console.log()
 
 const numberString2 = '12345jenniejisoolalisarose';
 const number2 = parseInt(numberString2)
-console.log(number2, '--->', typeof numberString2);
+console.log(number2, '--->', typeof number2);
