@@ -17,3 +17,7 @@ console.log(bookTicket([10, 20, 30]));
 console.log(bookTicket({}));
 console.log(bookTicket(undefined));
 console.log(bookTicket(null));
+
+
+
+// https://docs.google.com/document/d/1DMps9wa4hbeY0CQ-ls3Gcl7nE6zgEZjNHEiuXwsOhzo/edit?tab=t.0

@@ -37,3 +37,7 @@ console.log(describeDeclaration('let'));
 console.log(describeDeclaration('const'));
 console.log(describeDeclaration('var'));
 console.log(describeDeclaration('int'));
+
+
+
+// https://docs.google.com/document/d/1DMps9wa4hbeY0CQ-ls3Gcl7nE6zgEZjNHEiuXwsOhzo/edit?tab=t.0
