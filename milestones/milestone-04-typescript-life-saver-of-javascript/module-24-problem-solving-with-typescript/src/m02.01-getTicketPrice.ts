@@ -1,3 +1,5 @@
+// Problem DOC: https://docs.google.com/document/d/155qohMY5ODUyoDs1SVBLH6ZP3Cw7Buges1nPlBuvOKM/edit?tab=t.0
+
 const getTicketPrice = (age: number): number => {
     if(age < 5) {
         return 0;
