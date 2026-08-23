@@ -1,0 +1,7 @@
+"use strict";
+// Multiple Parameters with Different Types
+const introduce = (name, age) => {
+    return `My name is ${name} and I am ${age} years old`;
+};
+const result4 = introduce('Alisa', 23);
+console.log(result4);
