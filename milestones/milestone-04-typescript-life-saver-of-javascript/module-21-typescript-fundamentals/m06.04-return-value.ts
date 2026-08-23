@@ -21,4 +21,4 @@ const ans: number = add(100, 200);
 console.log(ans);
 
 console.log(add(120, 130));
-// console.log(add(10, '20'));               // Error
+// console.log(add(10, '20'));           // Error
