@@ -1,0 +1,1 @@
+{"version":3,"file":"m04.01-interface.js","sourceRoot":"","sources":["../src/m04.01-interface.ts"],"names":[],"mappings":";;AAUC,CAAC;AAID,CAAC;AAEF,MAAM,OAAO,GAAU;IACnB,IAAI,EAAE,UAAU;IAChB,IAAI,EAAE,OAAO;IACb,KAAK,EAAE,mBAAmB;IAC1B,UAAU,EAAE,CAAC,cAAc,EAAE,cAAc,CAAC;CAC/C,CAAC;AAwBF,MAAM,YAAY,GAAS;IACvB,IAAI,EAAE,YAAY;IAClB,KAAK,EAAE,IAAI;CACd,CAAC"}
