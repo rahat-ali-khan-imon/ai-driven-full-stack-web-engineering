@@ -1,0 +1,7 @@
+export default function UserCard() {
+    return (
+        <div>
+            <h3>Name: </h3>
+        </div>
+    )
+}
