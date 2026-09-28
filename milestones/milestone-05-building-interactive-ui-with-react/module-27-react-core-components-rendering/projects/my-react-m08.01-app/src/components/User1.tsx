@@ -1,3 +1,5 @@
+import UserCard from "./UserCard";
+
 interface User {
     name: string;
     isLoggedIn: boolean;
@@ -15,11 +17,11 @@ const users: User[] = [
     {name: 'Rose', isLoggedIn: false}
 ]
 
-export default function Users() {
+export default function Users1() {
     return (
         <div>
             {users.map((user) => (
-                <li>{user.name}</li>
+                <UserCard name={user.name}/>
             ))}
         </div>
     )

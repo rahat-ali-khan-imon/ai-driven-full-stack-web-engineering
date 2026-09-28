@@ -1,7 +1,11 @@
-export default function UserCard() {
+interface UserCardProps {
+    name: string;
+}
+
+export default function UserCard({name}: UserCardProps) {
     return (
-        <div>
-            <h3>Name: </h3>
+        <div className="user">
+            <h3>Name: {name}</h3>
         </div>
     )
 }

@@ -1,3 +1,9 @@
+.user {                                             /* */
+  border: 3px solid greenyellow;
+  margin: 20px;
+  border-radius: 10px;
+}
+
 .counter {
   font-size: 16px;
   padding: 5px 10px;

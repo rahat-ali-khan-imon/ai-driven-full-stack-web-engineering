@@ -1,7 +1,8 @@
-import Book from './components/Book'
+// import Book from './components/Book'
 
 import './App.css'
-import Users from './components/Users'
+// import Users from './components/Users'
+// import Users1 from './components/User1'
 
 function App() {
   const books = ['Physics', 'Math', 'Chemistry', 'Biology', 'English', 'History']
@@ -18,17 +19,19 @@ function App() {
 
       <br /> <br /> <br />
 
-      { books.map((book) => (
+      {/* { books.map((book) => (
         // <Book name='book'/>
 
         <Book name={book}/>           // Dynamic string
-      ))}
+      ))} */}
 
       <br /> <br /> <br />
 
-      <Users />
+      {/* <Users /> */}
 
-      
+      <br /> <br /> <br />
+
+      {/* <Users1 /> */}
     </>
   )
 }
