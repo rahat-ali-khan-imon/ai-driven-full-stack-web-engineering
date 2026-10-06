@@ -1,4 +1,4 @@
-export interface CountryType {
+export interface CountryType { 
     name: {
         common: string,
         official: string
