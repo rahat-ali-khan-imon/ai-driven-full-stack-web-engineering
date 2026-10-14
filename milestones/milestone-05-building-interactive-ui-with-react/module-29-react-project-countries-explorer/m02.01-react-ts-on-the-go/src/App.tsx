@@ -25,3 +25,7 @@ function App() {
 }
 
 export default App
+
+
+
+// Explore API and load data using use()
