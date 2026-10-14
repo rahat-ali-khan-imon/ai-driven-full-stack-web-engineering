@@ -15,7 +15,7 @@ export default function({countriesPromise}: CountriesProps) {
             <h2>Countries: {countries.length}</h2>
             <ul>                                            {/** */}
                 {countries.map((country) =>                                 
-                    <Country country={country}></Country>
+                    <Country country={country}></Country>     // error: each child in a list should have a unique "key" prop.
                 )}
             </ul>
         </div>
