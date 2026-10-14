@@ -22,3 +22,7 @@ function App() {
 }
 
 export default App
+
+
+
+// Display country information in UI and apply CSS
