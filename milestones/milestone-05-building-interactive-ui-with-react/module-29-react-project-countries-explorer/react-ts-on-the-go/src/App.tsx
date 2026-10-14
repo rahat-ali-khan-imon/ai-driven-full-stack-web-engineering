@@ -7,7 +7,7 @@ import Countries from './assets/countries';
 const countriesPromise = async (): Promise<CountryType[]> => {
   const response = await fetch('https://openapi.programming-hero.com/api/all');
   const data = await response.json();
-  return data.countries;
+  return data;
 }
 
 function App() {
