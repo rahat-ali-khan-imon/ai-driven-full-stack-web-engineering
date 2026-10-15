@@ -4,13 +4,15 @@ import './Country.css'
 
 export interface CountryProps {
     country: CountryType
+    handelVisitedCountry: (country: CountryType) => void            // 4
 }
 
-export default function({country}: CountryProps) {
+export default function({country, handelVisitedCountry}: CountryProps) {        // 5
     const [visited, setVisited] = useState<boolean>(false);
 
     const handleVisited = () => {
         setVisited(!visited);
+        handelVisitedCountry(country);                    // 6
     }
 
 
@@ -18,11 +20,9 @@ export default function({country}: CountryProps) {
         <div className={`country ${visited ? 'country-visited' : ''}`}>
             <h3>{country.name.common}</h3>
             <img src={country.flags.flags.png} alt={country.flags.flags.alt} />
-
             <p className={`${visited && 'population-known'}`}>
                 Capital: {country.capital.capital}
             </p>
-           
             <p>Population: {country.population.population}</p>
             
             <button onClick={handleVisited}>
