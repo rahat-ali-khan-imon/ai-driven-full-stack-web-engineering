@@ -22,7 +22,9 @@ export default function({country}: CountryProps) {
             <h3>{country.name.common}</h3>
             <img src={country.flags.flags.png} alt={country.flags.flags.alt} />
 
-            <p className={`${visited && 'population-known'}`}>Capital: {country.capital.capital}</p> {/** 1 */}
+            <p className={`${visited && 'population-known'}`}>
+                Capital: {country.capital.capital}                          {/** 1 */}
+            </p>
            
             <p>Population: {country.population.population}</p>
             
